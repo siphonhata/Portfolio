@@ -538,7 +538,7 @@ section {
   padding-bottom: 1rem;
 }
 
-.contact-content-con {
+/* .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
 }
@@ -630,7 +630,7 @@ section {
 .contact-content-con .right-contact .submit-btn {
   display: flex;
   justify-content: flex-start;
-}
+} */
 
 /*Independed components*/
 .btn-con {
@@ -976,3 +976,125 @@ section {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+/* Skills  */
+.main-title {
+  text-align: center; /* Center align the title */
+}
+
+.skills-cards {
+  display: flex; /* Arrange skill cards horizontally */
+  flex-wrap: wrap; /* Allow cards to wrap to next line if needed */
+  margin: 0 auto; /* Center the cards horizontally */
+}
+
+.skill-card {
+  margin: 10px; /* Add spacing between cards */
+  padding: 20px; /* Add padding inside cards */
+  border: 1px solid #ddd; /* Add a thin border */
+  border-radius: 5px; /* Add rounded corners */
+  text-align: center; /* Center text within cards */
+  width: calc(33% - 40px); /* Set card width to fit 3 cards per row with some margin */
+}
+
+.skill-card i {
+  font-size: 2em; /* Increase icon size */
+  margin-bottom: 10px; /* Add space between icon and title */
+}
+
+.skill-title {
+  font-weight: bold; /* Make skill title bold */
+}
+
+.skill-description {
+  font-size: 0.8em; /* Adjust description font size */
+}
+.colored-icon {
+  color: #0095FF; /* Example color, change as desired */
+}
+
+.git-icon-color {
+  color: #F05233; /* Example color, change as desired */
+}
+
+.architecture-icon-color {
+  color: #2196F3; /* Example color, change as desired */
+}
+
+.linux-icon-color {
+  color: #007BFF; /* Example color, change as desired */
+}
+
+.networking-icon-color {
+  color: #FF9800; /* Example color, change as desired */
+}
+
+.agile-icon-color {
+  color: #FF9800; /* Example color, change as desired */
+}
+
+.database-icon-color {
+  color: #007BFF; /* Example color, change as desired */
+}
+
+.api-icon-color {
+  color: #2196F3; /* Example color, change as desired */
+}
+
+.cicd-icon-color {
+  color: #FF9800; /* Example color, change as desired */
+}
+
+.docker-icon-color {
+  color: #24BF5B; /* Green for Docker */
+}
+.kubernetes-icon-color {
+  color: #FF9800; /* Orange for Kubernetes */
+}
+
+.monitoring-icon-color {
+  color: #007BFF; /* Example color, change as desired */
+}
+
+/* Contact  */
+/* Add your custom styles here */
+
+.contact-content-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-contact {
+  width: 60%;
+}
+
+.right-contact {
+  width: 40%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon i {
+  margin-right: 10px;
+}
+
+.contact-item {
+  margin-bottom: 20px;
+}
+
+.contact-icons {
+  margin-top: 20px;
+}
+
+.contact-icon a {
+  color: #333;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.contact-icon a:hover {
+  color: #007bff;
+}
