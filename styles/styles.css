@@ -538,7 +538,7 @@ section {
   padding-bottom: 1rem;
 }
 
-/* .contact-content-con {
+.contact-content-con {
   display: flex;
   padding-top: 3.5rem;
 }
@@ -630,7 +630,7 @@ section {
 .contact-content-con .right-contact .submit-btn {
   display: flex;
   justify-content: flex-start;
-} */
+}
 
 /*Independed components*/
 .btn-con {
@@ -1054,47 +1054,4 @@ section {
 
 .monitoring-icon-color {
   color: #007BFF; /* Example color, change as desired */
-}
-
-/* Contact  */
-/* Add your custom styles here */
-
-.contact-content-con {
-  display: flex;
-  justify-content: space-between;
-}
-
-.left-contact {
-  width: 60%;
-}
-
-.right-contact {
-  width: 40%;
-}
-
-.icon {
-  display: flex;
-  align-items: center;
-}
-
-.icon i {
-  margin-right: 10px;
-}
-
-.contact-item {
-  margin-bottom: 20px;
-}
-
-.contact-icons {
-  margin-top: 20px;
-}
-
-.contact-icon a {
-  color: #333;
-  font-size: 24px;
-  margin-right: 10px;
-}
-
-.contact-icon a:hover {
-  color: #007bff;
 }
