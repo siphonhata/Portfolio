@@ -13,7 +13,7 @@
 </head>
 
 <body class="main-content">
-    <header class="container header active" id="home">
+    <header class="container header" id="home">
         <div class="header-content">
             <div class="left-header">
                 <div class="h-shape"></div>
@@ -23,8 +23,7 @@
             </div>
             <div class="right-header">
                 <h1 class="name">
-                    Hi, I'm<span> Sipho </span>Ndlalane.
-                    
+                    Hi, I'm<span> Sipho </span>Ndlalane.       
                 </h1>
                 <p>
                     I am a proactive individual that is interested in the world of software 
@@ -43,7 +42,7 @@
         </div>
     </header>
     <main>
-        <section class="container about" id="about">
+        <section class="container about active" id="about">
             <div class="main-title">
                 <h2>About <span>me</span></h2>
             </div>
@@ -112,7 +111,7 @@
                         <p class="skill-description">Experience with setting up and managing CI/CD pipelines to automate the software development lifecycle.  Familiar with tools and practices for continuous integration, delivery, and deployment.</p>
                     </div>
                       
-                  </div>
+                </div>
                   
                 
             <!-- </div> -->
@@ -210,6 +209,73 @@
             </div>
 
         </section>
+
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of my work that I've done in various programming languages.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/tictac.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/siphonhata/Tic-Tac-Toe" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/login.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/siphonhata/Loginsystem" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/age_calc.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/siphonhata/Age-Calculator" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/voting_s.jpeg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/siphonhata/voting_station" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="container contact" id="contact">
             <div class="contact-container">
                 <div class="main-title">
@@ -285,14 +351,19 @@
                 </div>
             </div>
         </section>
+ 
+      
     </main>
 
     <div class="controls">
-        <div class="control active-btn" data-id="home" >
+        <div class="control" data-id="home">
             <i class="fas fa-home"></i>
         </div>
         <div class="control" data-id="about">
             <i class="fas fa-user"></i>
+        </div>
+        <div class="control active-btn" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
         </div>
         <div class="control" data-id="contact">
             <i class="fas fa-envelope-open"></i>
